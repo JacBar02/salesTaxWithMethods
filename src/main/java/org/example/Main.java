@@ -13,6 +13,7 @@ public class Main {
         displaysTotals(inputData, stateTax, countyTax, totalSalesTax, totalSale);
     }
 
+<<<<<<< HEAD
     public static double inputPurchasePrice() {
         double purchasePrice;
         Scanner scanner = new Scanner(System.in);
@@ -37,4 +38,23 @@ public class Main {
         System.out.printf("Total Sale: $%.2f\n", totalSale);
     }
 }
+=======
+    /* Write a method called inputPurchasePrice that
+    *  takes the user input for price, converts to
+    *  a double, and returns the price as a double
+    * */
+
+    /* Write a method called calculateTax that
+     * accepts a double called price and a double called
+     * tax rate as parameters and calculates and returns the tax
+     * */
+
+    /* Write a method called calculateTotal that
+     * accepts two double values and returns the sum
+     * */
+
+    /* Write a method called displayTotals that takes
+    *  purchasePrice, stateTax, countyTax, totalTax and totalPrice
+    *  as double parameters. Output using decimal formatter amd printf */
+>>>>>>> 25896f5e995b6debbb6a0c58ec3e43044b646ba9
 
